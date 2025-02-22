@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+@media (min-width: 1601px) {
+  body {
+    
+    --s: 41px; /* control the size*/
+    --c1: #fafe0b;
+    --c2: #1f1e1e;
+    --c3: #668e2f;
+    
+    --_g:,var(--c1) 25%,var(--c2) 0 150deg,var(--c1) 0 240deg,#0000 0;
+    background:
+      conic-gradient(from  60deg at calc(3.866*var(--s)),var(--c2) 60deg,#0000 0)
+       calc(1.366*var(--s)) calc(1.366*var(--s)),
+      conic-gradient(from 240deg at calc( .866*var(--s)),var(--c2) 60deg,#0000 0)
+       calc(2.366*var(--s)) calc(1.366*var(--s)),
+      conic-gradient(at var(--s) var(--s),#0000 75%,var(--c1) 0)
+       calc(1.366*var(--s)) calc(var(--s)/-2),
+      conic-gradient(from 30deg at calc(-.288*var(--s)) 50%, #0000 120deg,var(--c3) 0),
+      conic-gradient(from 90deg at calc(3.732*var(--s)) calc(1.866*var(--s)),
+       var(--c3) 120deg,#0000 0),
+      conic-gradient(from -30deg at calc(3.732*var(--s)) calc(.866*var(--s)),
+       var(--c3) 120deg,var(--c1) 0 210deg,#0000 0),
+      conic-gradient(from 150deg at calc( .866*var(--s))var(--_g)),
+      conic-gradient(from -30deg at calc(2.866*var(--s))var(--_g)) var(--c3);
+    background-size: calc(4.732*var(--s)) calc(2.732*var(--s));
+    
+  }
+
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+  body {
+    
+  --s: 162px; /* control the size*/
+  --c1: #cd2942;
+  --c2: #62928c;
+  --c3: #e8cba9;
+  --c4: #33152e;
+  --c5: #414352;
+  
+  --_g: conic-gradient(from 30deg at 50% 25%,#0000 300deg,var(--c1) 0);
+  background:
+    var(--_g) calc(0.2885*var(--s)) calc(7*var(--s)/12),
+    var(--_g) 0 calc(var(--s)/12),
+    conic-gradient(from 120deg at 50% calc(250%/3),var(--c2) 120deg,#0000 0),
+    repeating-conic-gradient(from 30deg,#0000 0 60deg,var(--c3) 0 120deg),
+    repeating-conic-gradient(var(--c4) 0 60deg,var(--c2) 0 120deg,var(--c5) 0 180deg);
+  background-size: calc(0.577*var(--s)) var(--s);
+}
+
+  }
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+        html {
+  --s: 56px; /* control the size*/
+  --c1: #3ebfd0;
+  --c2: #f88282;
+  
+  --_c1: var(--c1) 99%,#0000 101%;
+  --_c2: var(--c2) 99%,#0000 101%;
+  
+  --r:calc(var(--s)*.866); 
+  --g0:radial-gradient(var(--s),var(--_c1));
+  --g1:radial-gradient(var(--s),var(--_c2));
+  --f:radial-gradient(var(--s) at calc(100% + var(--r)) 50%,var(--_c1));
+  --p:radial-gradient(var(--s) at 100% 50%,var(--_c2));
+  background:
+    var(--f) 0 calc(-5*var(--s)/2),
+    var(--f) calc(-2*var(--r)) calc(var(--s)/2),
+    var(--p) 0 calc(-2*var(--s)),
+    var(--g0) var(--r) calc(-5*var(--s)/2),
+    var(--g1) var(--r) calc( 5*var(--s)/2),
+    radial-gradient(var(--s) at 100% 100%,var(--_c1)) 0 calc(-1*var(--s)),   
+    radial-gradient(var(--s) at 0%   50% ,var(--_c1)) 0 calc(-4*var(--s)),
+    var(--g1) calc(-1*var(--r)) calc(-7*var(--s)/2),
+    var(--g0) calc(-1*var(--r)) calc(-5*var(--s)/2),
+    var(--p) calc(-2*var(--r)) var(--s),
+    var(--g0) calc(-1*var(--r)) calc(var(--s)/ 2),
+    var(--g1) calc(-1*var(--r)) calc(var(--s)/-2),
+    var(--g0) 0 calc(-1*var(--s)),
+    var(--g1) var(--r) calc(var(--s)/-2),
+    var(--g0) var(--r) calc(var(--s)/ 2) 
+    var(--c2);
+  background-size: calc(4*var(--r)) calc(6*var(--s));
+}
+
+    }
+
+
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    
+        html {
+  --s: 140px; /* control the size*/
+  --c1: #ed2c5f;
+  --c2: #f8cd77;
+  --c3: #9cedcb;
+  --c4: #18767c;
+  
+  --_g: 
+    #0000 25%,#0008 47%,var(--c1)  53% 147%,var(--c2) 153% 247%,
+    var(--c1) 253% 347%,var(--c2) 353% 447%,var(--c1) 453% 547%,#0008 553%,#0000 575%;
+  --_s: calc(25%/3) calc(25%/4) at 50%; 
+  background:
+    radial-gradient(var(--_s) 100%,var(--_g)),
+    radial-gradient(var(--_s) 100%,var(--_g)) calc(var(--s)/2) calc(3*var(--s)/4),
+    radial-gradient(var(--_s) 0   ,var(--_g)) calc(var(--s)/2) 0,
+    radial-gradient(var(--_s) 0   ,var(--_g)) 0                calc(3*var(--s)/4),
+    repeating-linear-gradient(90deg,var(--c3) calc(25%/-6) calc(25%/6),var(--c4) 0 calc(25%/2));
+  background-size: var(--s) calc(3*var(--s)/2)
+}
+
+    }
+
+
+
+@media (min-width: 601px) and (max-width: 800px) {
+    
+        html {
+  --s: 30px; /* control the size*/
+  --c1: #298085;
+  --c2: #d31756;
+  --c3: #7e5c35;
+  --c4: #fce2a1;
+  
+  background:
+    conic-gradient(at 50% calc(100%/6),var(--c1) 60deg,#0000 0),
+    conic-gradient(at calc(100%/6) 50%,#0000 240deg,var(--c1) 0),
+    conic-gradient(from 180deg at calc(100%/6) calc(500%/6),var(--c1) 60deg,#0000 0),
+    conic-gradient(from 180deg at calc(500%/6),#0000 240deg,var(--c1) 0) calc(4*.866*var(--s)) 0,
+    repeating-linear-gradient(-150deg,var(--c2) 0 calc(100%/6),#0000   0 50%),
+    repeating-linear-gradient(-30deg, var(--c3) 0 calc(100%/6),var(--c4) 0 50%);
+  background-size: calc(6*.866*var(--s)) calc(3*var(--s))
+}
+
+    }
+
+
+
+
+@media (min-width: 401px) and (max-width: 600px) {
+    
+        html {
+  --s: 20px; /* control the size*/
+  --c1: #c02942;
+  --c2: #53777a;
+  --c3: #ecd078;
+  
+   --g: var(--s); /* gap between lines */
+   background:
+     conic-gradient(at var(--s) calc(100% - var(--s)),#0000 270deg,var(--c1) 0) calc(var(--s) + var(--g)) 0,
+     linear-gradient(var(--c2) var(--s),#0000 0) 0 var(--g),
+     conic-gradient(at var(--s) calc(100% - var(--s)),#0000 90deg,var(--c2) 0 180deg, var(--c1) 0),
+     var(--c3);
+   background-size: calc(2*(var(--s) + var(--g))) calc(2*(var(--s) + var(--g)));
+}
+
+
+    }
+
+
+@media (max-width: 400px) {
+    
+        html {
+  --s: 150px; /* control the size*/
+  --c1: #ff847c;
+  --c2: #e84a5f;
+  --c3: #fecea8;
+  --c4: #99b898;
+  
+  background:
+    conic-gradient(from  45deg at 75% 75%, var(--c3) 90deg,var(--c1) 0 180deg,#0000 0),
+    conic-gradient(from -45deg at 25% 25%, var(--c3) 90deg,#0000 0),
+    conic-gradient(from -45deg at 50% 100%,#0000 180deg,var(--c3) 0),
+    conic-gradient(from -45deg,var(--c1) 90deg, var(--c2) 0 225deg,var(--c4) 0);
+  background-size: var(--s) var(--s); 
+
+
+    }
+}
+
+
+
+
+  </style>
+<body>
+    
+</body>
+</html>
